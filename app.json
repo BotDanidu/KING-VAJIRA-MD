@@ -8,11 +8,11 @@
 "env": {
   "OWNER_NAME": {
   "description": "Name of Bot Owner",
-      "value": "Vajira Rathnayama"
+      "value": "Danidu Nirmal"
   },
   "ALIVE_MESSAGE": {
     "description": "Alive message for bot",
-     "required" :false
+     "required" :true
     },
     "AUTO_STATUS_SAVER": {
       "description": "Automatically saves status of every person and sends in log number.",
@@ -20,7 +20,7 @@
       },
 	"AUTO_READ_STATUS": {
       "description": "Automatically read status of every person and sends in log number.",
-       "required" :false
+       "required" :true
       },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
@@ -72,10 +72,10 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "put your number"
+       "value": "+94743157343"
   },
    "SESSION_ID": {
-    "description": "Please put your SESSION_ID here,if you don't have visit https://replit.com/@VajiraRathnayak/VAJIRA-MD-7?v=1"
+    "description": "VAJIRA;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiUUZCUWxmTWRtQ0tCMXZSMllOUVErejFZOFBpL2YreE1CQWR6MDBuQ1RFVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibThDQzRETjhhZDdlRkhHTTNQU1dzUklXM0ZlNG9QN0tjTzhsL1l6cE1TQT0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJlRjM1bkViaEdHOEpEOFIzQStSVzkwN3ZHeGRTRXJuNFJkSERLdGNMVjBjPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiIxV09XcWtscUJsTkpoOFFoNndPNWVUNmozSzFMaDhmWFNSOXhjNzRBbXkwPSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlFJeE8rQWcyYjhZNGZNYXVxNDRhRVB6RWRkcUhIUW1UenFCSFNLRktySDg9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlZUaXZNSGwrQ05BbmVKQ2lYUFhabWRHWVFBNGYvUnlZRlp1cWF0akhoZzA9In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI1S1liQ3l5WXFab0hYOVR1ajkzL1Riazkva1pCY0J5enNDMG9TNmhjMjg3ckU4U3hWM1l2MGpoM2orSGJOTDYzZUZjOVRtRjMzUjZCWkV1dUN5OUZnQT09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjExLCJhZHZTZWNyZXRLZXkiOiJoRmRubnc5NkZmNXV3WEt5OUxadGR0SGNPRHowUEJXYk9IL1lPME90c1RzPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJjazBnTkxUdVRJNkdjNEh5bGozSEZRIiwicGhvbmVJZCI6IjM4ZmQ0YTQzLTNhNDItNGU5OS04OWVhLTFmY2JlYWFlMWJkYiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJySFVmUVg0N0VTamhvMGZjOUNaUCtpbTNzazg9In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjkxeGRYVXRvTVNKK0dnejZpRjEwRW5EUnpUcz0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ05UMHFwb0xFUFcza0t3R0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IjRaYXIyNUwrUUJQcEluMXd5SGFjaHpsd1VMMHB1d1lBa3dVYjF6a0hXbEU9IiwiYWNjb3VudFNpZ25hdHVyZSI6Im4xQzlIcXIvQS9XbWs4eURYVXpVOUxGc3E4Nnd6cXZLUXRCTFBnT0tTeGlacU95VlFscDNId1JqMHNZL1dIUUlFYzdJTFVOc1cxK1B2ZWEwemxYbWlBPT0iLCJkZXZpY2VTaWduYXR1cmUiOiJlNGdKQTZWNGJzQ0F2R2dpblpxWkEvRFJVdmlwcTFRTmZqcEcrOEpzMFcvcjdmQ1NtaS9HaTdtSkUxem5BMGdUcFJ4VEtrNmVES2paNy9YOUx1SFdoQT09In0sIm1lIjp7ImlkIjoiOTQ3MTUzMjIwMDg6NEBzLndoYXRzYXBwLm5ldCIsIm5hbWUiOiJE4bSAybTJquG0heG0nCBOyarKgOG0jeG0gMqfIO+jvyJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI5NDcxNTMyMjAwODo0QHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmVHV3E5dVMva0FUNlNKOWNNaDJuSWM1Y0ZDOUtic0dBSk1GRzljNUIxcFIifX1dLCJwbGF0Zm9ybSI6InNtYmkiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MDMxNTY3Mjh9"
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com ",
