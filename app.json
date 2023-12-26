@@ -8,7 +8,7 @@
 "env": {
   "OWNER_NAME": {
   "description": "OWNER NAME",
-      "value": "VAJIRA RATHNAYAKA"
+      "value": "DANIDU NIRMAL"
   },
   "ALIVE_MESSAGE": {
     "description": " SET YOUR ALIVE MESSAGE FOR THE BOT",
@@ -17,7 +17,7 @@
   "AUTO_READ_STATUS": {
     "description": "Fill the value true if you want bot view your Statuses.",
     "required" :false,
-    "value": "false"
+    "value": "true"
       },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
@@ -29,7 +29,7 @@
     },
    "THUMB_IMAGE": {
     "description": "Put Your Image Url for bot.",
-     "value": "https://telegra.ph/file/09ab24679fb3a297a8905.jpg"
+     "value": "https://telegra.ph/file/f48bfc9ac17f663558e53.jpg"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
@@ -53,7 +53,7 @@
   "LEVEL_UP_MESSAGE": {
     "description": "Fill the value true if you want bot send Level up message in chat.",
      "required" :false,
-     "value": "false"
+     "value": "true"
     },
       "READ_MESSAGE": {
     "description": "Fill the value true if you want bot to read all messages.",
@@ -71,10 +71,10 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94Xxxxxxxxxx"
+       "value": "94715322008"
   },
    "SESSION_ID": {
-    "description": "Please put your Session ID that u scanned from the bot.... If u haven't scanned go to KING-MD Github Repo U can find the Scanner Option"
+    "description": "VAJIRA;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNENuc1hDMTR1cUcxcmZseGplNGh2dndVZ0FnTk93a0hoSHBDdHBuRDJWMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWjl0MkUzanhOZ2dndjh1Y1M1ckJMRmZwWitzZTh3MUoxTjlaR2xZYTFEND0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJRRGJzYVU3MUlnQ1M2TTkvcnRVSCtVOGtXa1RVMzVOLzRtWjhvUTVGZkZJPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJoNk5JNml4WkpQU0JPTWNhVzlLQTN6Z0FRUm94Wi9hZWZ0TXVDTjhramgwPSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImlFVjFjVXpUYzNiNFRaUU5Sc0NQUTU2WkgwRHdHK3NQOEZjOWdkSE5pbkE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImxqMlpHZXc1UFBidWVNM09rZWVNa2Vnb2ZISDZpUy8rN1NsNjk0cDFramc9In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPZjdwaEc3dUhZU2dZOGZnUzlCejBhZmxzRlpHQm9RZDdtZHJtQWZKVkxkV0Z5WlR4QnVzem01eXZ1QlRHUW9acWczQXROU3EvakZSN2xVanRmTHhCQT09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjY3LCJhZHZTZWNyZXRLZXkiOiIwUWYzVmhHUk9RbFhzekkvd1gvdmlWUmVQQktnQ2Zzc2VtK09uM1JVU3ZFPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJ4aENTR0dkblNFcS1YMmN3dTE3MjJnIiwicGhvbmVJZCI6IjBhODM5MDVkLTg2ODEtNGY2MC1hMGE2LTc5MzU4ZmNkOGYzZiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJKbTRDVEl1WldaLzJWaHNBaWd2TGlwM255a1E9In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlIrODhnencwQm9pZDBwMGIvSFdxOGpYMWxHVT0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ04vTnFFUVF6NmlwckFZWUFTQUFLQUE9IiwiYWNjb3VudFNpZ25hdHVyZUtleSI6InZ6UEdhOWVhTzdIQSswTGdwczlJZmJ0YTRMV0JkVXFkaytTMG01Wi9obGM9IiwiYWNjb3VudFNpZ25hdHVyZSI6IlNtNlZlMmVWWG94RlJibUErd2JGeXRCVkNndXE3Vm1FeDNLV0V1aGhTZ1ZKWE4vRWx6TW5Ua05pWGhZT3NhSmRhWXhPSit5aGcva2V5d0d4NjlDNUNnPT0iLCJkZXZpY2VTaWduYXR1cmUiOiI3eWlNWGFiMkE1VDQ5Wlcza2YyK2YxdDJvMy9GTEwzMEoxdzdROWJkTmZSZTVObzhpK2xTVzVaVHlzbzg1a05GaEZZUWFCdmZOVUo5VTFuZk1ETHZBdz09In0sIm1lIjp7ImlkIjoiOTQ3MTUzMjIwMDg6MTFAcy53aGF0c2FwcC5uZXQifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiOTQ3MTUzMjIwMDg6MTFAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCYjh6eG12WG1qdXh3UHRDNEtiUFNIMjdXdUMxZ1hWS25aUGt0SnVXZjRaWCJ9fV0sInBsYXRmb3JtIjoiaXBob25lIiwibGFzdEFjY291bnRTeW5jVGltZXN0YW1wIjoxNzAzNTY0MzY5fQ=="
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com(optional if u don't wan't then don't put it ",
@@ -95,12 +95,12 @@
   },
       "AUTO_REACTION": {
     "description": "Reacts emoji to all commands.",
-     "value": "false",
+     "value": "true",
      "required": false 
   },
   "PACK_AUTHER": {
     "description": "PUT STICKER AUTHOR NAME",
-    "value": "vajira"
+    "value": "DANIDU"
   },
   "PACK_NAME": {
     "description": "PUT STICKER PACK NAME",
