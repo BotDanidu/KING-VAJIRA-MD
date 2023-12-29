@@ -1,5 +1,5 @@
 { 
-  "name": "KING-VAJIRA-MD",
+  "name": "KING-DANIDU-MD",
   "description": "A Whatsapp md bot built By Naveed to make experience better",
   "logo": "https://telegra.ph/file/09ab24679fb3a297a8905.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "King-Two", "KING-MD", "KING","king-Bot","theme bot","multi device","baileys"],
@@ -8,7 +8,7 @@
 "env": {
   "OWNER_NAME": {
   "description": "OWNER NAME",
-      "value": "VAJIRA RATHNAYAKA"
+      "value": "DANIU NIRMAL"
   },
   "ALIVE_MESSAGE": {
     "description": " SET YOUR ALIVE MESSAGE FOR THE BOT",
@@ -17,7 +17,7 @@
   "AUTO_READ_STATUS": {
     "description": "Fill the value true if you want bot view your Statuses.",
     "required" :false,
-    "value": "false"
+    "value": "true"
       },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
