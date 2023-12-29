@@ -1,5 +1,5 @@
 { 
-  "name": "KING-VAJIRA-MD",
+  "name": "KING-DANIDU-MD",
   "description": "A Whatsapp md bot built By Naveed to make experience better",
   "logo": "https://telegra.ph/file/09ab24679fb3a297a8905.jpg",
   "keywords": ["nodejs", "bot", "whatsapp bot", "King-Two", "KING-MD", "KING","king-Bot","theme bot","multi device","baileys"],
@@ -8,7 +8,7 @@
 "env": {
   "OWNER_NAME": {
   "description": "OWNER NAME",
-      "value": "VAJIRA RATHNAYAKA"
+      "value": "DANIDU NIRMAL"
   },
   "ALIVE_MESSAGE": {
     "description": " SET YOUR ALIVE MESSAGE FOR THE BOT",
@@ -17,7 +17,7 @@
   "AUTO_READ_STATUS": {
     "description": "Fill the value true if you want bot view your Statuses.",
     "required" :false,
-    "value": "false"
+    "value": "true"
       },
     "HEROKU_API_KEY": {
     "description": "Put HEROKU API KEY",
@@ -29,7 +29,7 @@
     },
    "THUMB_IMAGE": {
     "description": "Put Your Image Url for bot.",
-     "value": "https://telegra.ph/file/09ab24679fb3a297a8905.jpg"
+     "value": "https://telegra.ph/file/55332bff3440bcc06149d.jpg"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
@@ -53,7 +53,7 @@
   "LEVEL_UP_MESSAGE": {
     "description": "Fill the value true if you want bot send Level up message in chat.",
      "required" :false,
-     "value": "false"
+     "value": "true"
     },
       "READ_MESSAGE": {
     "description": "Fill the value true if you want bot to read all messages.",
@@ -71,10 +71,10 @@
   },
   "OWNER_NUMBER": {
     "description": "The phone numbers of the users who you want to be admin for the bot (should be in international format without + and multiple numbers must be separated by a comma \",\")",
-       "value": "94Xxxxxxxxxx"
+       "value": "94715322008"
   },
    "SESSION_ID": {
-    "description": "Please put your Session ID that u scanned from the bot.... If u haven't scanned go to KING-MD Github Repo U can find the Scanner Option"
+    "description": "VAJIRA;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU0YzM2lFRnpkRkZVdU5qRkgyZ0JoMm5ic3ZqMm1NREFXYWkySDYrb2IxTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWW9nZURRV0d5Y3I3dTY4V2hMUi9LTklvL3kyUUM4QjlvSkRDL3Z6S21Vcz0ifX0sInNpZ25lZElkZW50aXR5S2V5Ijp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJrRzRIVS8zeURKRFZsaGsrZTZkQ2JEZjFldVI3OGRYZUJDbkVSYzdSaVY0PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJLY3dzYndDRTRER29Mbys5TGdxZjExRlU2aXFIQkRoOTNNN2RENnN2SjIwPSJ9fSwic2lnbmVkUHJlS2V5Ijp7ImtleVBhaXIiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjZBMWhlQktJWDlDakxjL2pQb1BHUVVNTEEvYmNjZXk4Vm1wODNWNk5hVzQ9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InFncjZqUWJONlkvYmNYcG8wNGdwMUIxN0dDbCtvd3VBWFQ0NXFnZnpRajA9In19LCJzaWduYXR1cmUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJmMWs4NE1YQVpXV2N6SVIxN1lyM2gvYW1qM2hielBJNVdhQ2hiV3hRZjBseEVrOU0zMCsrdldXSytEN0JBRFloRFFoU1UyN1NCS2JxZ1hxeWxKbEppZz09In0sImtleUlkIjoxfSwicmVnaXN0cmF0aW9uSWQiOjM2LCJhZHZTZWNyZXRLZXkiOiIxUjl2dWxleFBNV0x3L1dtdThzUkp5Qm5aUE5Ud2ltdHdjSUUvZ0hsV2M0PSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiI1dDh2bGktMVFER24xN0JOQklSR1J3IiwicGhvbmVJZCI6ImRlZGQwODYzLWY3ZGMtNDg4OC1iMzY1LTUwMGU5YzU2Y2EzNyIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJtb3k0YXhaajRwcVprOXQvWklqMGdNRGo5NUk9In0sInJlZ2lzdGVyZWQiOmZhbHNlLCJiYWNrdXBUb2tlbiI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InRJOW5rT3pjMlUxQktwb0NkcFRWKzdKSlNnND0ifSwicmVnaXN0cmF0aW9uIjp7fSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ0syeno1NEtFTGFpdTZ3R0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6InZ6UEdhOWVhTzdIQSswTGdwczlJZmJ0YTRMV0JkVXFkaytTMG01Wi9obGM9IiwiYWNjb3VudFNpZ25hdHVyZSI6Ilhwby91dC9ibm05Sm9UUTcvc25oQlRUVkoxN2lkMzcySndiSksvSUhaWEwyT0dWQnAxL1VoRndJOTRsYUt0Q1c3UzJzNFl3TThOV2d4N1dFM2doM0R3PT0iLCJkZXZpY2VTaWduYXR1cmUiOiJQMXY0dE16ejlLd0NaclJRWExJYVlmRjg0TXVtMVcvZ243cDJxaTNXWXFiZ2VBYVdJK3B4di90TmZ4bC9VR2xDbDlXek9UTUdqT2R1NVcxSTdNbFVqQT09In0sIm1lIjp7ImlkIjoiOTQ3MTUzMjIwMDg6MTNAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiRGFuaWR1IE5pcm1hbCJ9LCJzaWduYWxJZGVudGl0aWVzIjpbeyJpZGVudGlmaWVyIjp7Im5hbWUiOiI5NDcxNTMyMjAwODoxM0BzLndoYXRzYXBwLm5ldCIsImRldmljZUlkIjowfSwiaWRlbnRpZmllcktleSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkJiOHp4bXZYbWp1eHdQdEM0S2JQU0gyN1d1QzFnWFZLblpQa3RKdVdmNFpYIn19XSwicGxhdGZvcm0iOiJpcGhvbmUiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MDM4NTg0ODksIm15QXBwU3RhdGVLZXlJZCI6IkFBQUFBTy9NIn0="
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com(optional if u don't wan't then don't put it ",
@@ -87,7 +87,7 @@
   },
     "THEME": {
     "description": "Don't Change . No Need To Change Only Avilable King-Vajira-Md .",
-     "value": "KING-VAJIRA-MD"
+     "value": "KING-DANIDU-MD"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
@@ -95,16 +95,16 @@
   },
       "AUTO_REACTION": {
     "description": "Reacts emoji to all commands.",
-     "value": "false",
+     "value": "true",
      "required": false 
   },
   "PACK_AUTHER": {
     "description": "PUT STICKER AUTHOR NAME",
-    "value": "vajira"
+    "value": "danidu"
   },
   "PACK_NAME": {
     "description": "PUT STICKER PACK NAME",
-    "value": "king-vajira-md"
+    "value": "king-Danidu-md"
   },
   "heroku": {
     "description": "Weather it is on heroku or not",
